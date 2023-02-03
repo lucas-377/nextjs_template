@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
-import { theme } from '@/styles/theme';
+import { theme } from '../../../styles/theme';
 
 function Layout({ children }) {
   const site = 'https://';
